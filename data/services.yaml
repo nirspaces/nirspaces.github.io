@@ -1,0 +1,94 @@
+
+service_list:
+  row_1:
+    col_1:
+      name: Concept
+      detail: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+      image_class: icon-pencil
+    col_2:
+      name: Design
+      detail: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+      image_class: icon-picture
+  row_2:
+    col_1:
+      name: Construction
+      detail: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+      image_class: icon-cogs
+    col_2:
+      name: Installation
+      detail: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+      image_class: icon-building
+
+
+project_list:
+  1:
+    title: "Educational"
+    content: "Springer Center Food Court, NM State University; Las Cruces, NM"
+    image: images/kitchen_bath1.jpg
+  2:
+    title: "Commercial"
+    content: "Corbett Square; Albuquerque, NM"
+    image: images/livingroom1.jpg
+  3:
+    title: "Hospitality"
+    content: "Springer Center Food Court, NM State University; Las Cruces, NM"
+    image: images/livingroom2.jpg
+  4:
+    title: "Residential"
+    content: "Springer Center Food Court, NM State University; Las Cruces, NM"
+    image: images/kitchen_bath2.jpg
+  5:
+    title: "Commercial"
+    content: "Springer Center Food Court, NM State University; Las Cruces, NM"
+    image: images/bedroom1.jpg
+  6:
+    title: "Residential"
+    content: "Springer Center Food Court, NM State University; Las Cruces, NM"
+    image: images/bedroom2.jpg
+  7:
+    title: "Educational"
+    content: "Springer Center Food Court, NM State University; Las Cruces, NM"
+    image: images/outdoors1.jpg
+  8:
+    title: "Hospitality"
+    content: "Springer Center Food Court, NM State University; Las Cruces, NM"
+    image: images/offices1.jpg
+  9:
+    title: "Commercial"
+    content: "Axel Hair Studio; Santa Fe, NM"
+    image: images/company1.jpg
+  10:
+    title: "Residential"
+    content: "Camps residence; Los Cerrillos, NM"
+    image: images/magazine1.jpg
+
+
+process:
+  1:
+    name: "Project Management"
+    tag: "management"
+    detail: "details"
+  2:
+    name: "Interior Design Property Plan"
+    tag: "plan"
+    detail: "details"
+  3:
+    name: "Materials Presentation"
+    tag: "materials"
+    detail: "details"
+  4:
+    name: "Furniture and Equipment Specifications"
+    tag: "ffespecifications"
+    detail: "details"
+  5:
+    name: "Purchasing"
+    tag: "purchasing"
+    detail: "details"
+  6:
+    name: "Installation"
+    tag: "installation"
+    detail: "details"
+  7:
+    name: "Construction Drawings and Documents"
+    tag: "documents"
+    detail: "details"

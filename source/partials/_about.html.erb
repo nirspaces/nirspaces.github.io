@@ -1,38 +1,10 @@
 
-<div id="about">
+<div id="aboutus" class="main-section not-home">
 
-  <div class="container">
+  <%= partial "partials/why" %>
 
-    <div class="about-title"><h2><%= data.about.head %></h2></div>
+  <%= partial "partials/testimonials" %>
 
-    <div class="row">	
-      <div class="about-text"><%= data.about.text %></div>
-    </div>
-
-    <div class="row">
-      <div class="prettyPhoto-gallery">
-	<ul id="flexisel">
-	  
-	  <% for gallery_id in data.about.gallery.keys %>
-	  <li>
-	    <a data-rel="prettyPhoto[about]" href="<%= data.about.gallery[gallery_id].image %>">
-	      <img src="<%= data.about.gallery[gallery_id].thumb %>" alt="<%= data.about.gallery[gallery_id].alt %>" />
-	    </a>
-	  </li>
-	  <% end %>
-
-	</ul>  
-      </div>
-    </div>
-    
-    <div class="row about-icon">
-      <div class="fa-calendar"></div>
-    </div>
-    <div class="row">
-      <div class="about-events"><%= data.about.events.text %></div>
-      <a href="#contact"><div class="about-button"><%= data.about.events.link_text %></div></a>
-    </div>
-
-  </div>
-
+  <%= partial "partials/team" %>
+  
 </div>

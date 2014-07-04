@@ -1,0 +1,37 @@
+
+<div class="project-list">
+
+  <div class="project_top bot_angle_right"></div>	
+  <div class="white">					
+    <div class="title page-title text-center colored-text">
+      <h1 class="light-text">Project List</h1>
+      <span class="underline white"></span>
+    </div>									
+  </div>
+  
+  <div class="caroufred green pad-bot animated-fade">
+
+    <ul class="project-list-gallery">               					
+    
+      <% for project_id in data.services.project_list.keys %>
+      <%
+        title = data.services.project_list[project_id].title
+        content = data.services.project_list[project_id].content
+        image = data.services.project_list[project_id].image
+      %>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="<%= content %>" data-original-title="<%= title %>">
+	  <img src="<%= image %>" alt="img"/>
+	</a>
+      </li>
+      <% end %>
+
+    </ul>
+    
+    <div id="caroufred_project_list_gallery" class="carousel_pagination left"></div>		
+
+  </div>
+ 
+ <div class="project_bottom top_angle_right"></div>
+
+</div>	

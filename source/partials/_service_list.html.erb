@@ -1,0 +1,26 @@
+
+<div class="container pad-bot">
+
+  <div class="content green">					
+
+    <% for row_id in data.services.service_list.keys %>
+    <div class="service">
+      <% for col_id in data.services.service_list[row_id].keys %>
+      <%
+        name = data.services.service_list[row_id][col_id].name
+        detail = data.services.service_list[row_id][col_id].detail
+        image_class = data.services.service_list[row_id][col_id].image_class
+      %>
+      <div class="col-lg-6 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 smxs-margin animated-slide-top">
+	<div class="service-icon colored-background"><i class="<%= image_class %>"></i></div>
+	<h5 class="uppercase"><%= name %></h5>
+	<p><%= detail %></p>
+	<div class="service-description"></div>
+      </div>	
+      <% end %>
+    </div>									
+    <% end %>
+
+  </div>
+
+</div>

@@ -1,0 +1,57 @@
+
+<div class="team blue-bg green">
+
+  <div class="container">					
+    <div class="title page-title text-center">
+      <h1 class="light-text">Our Staff</h1>
+      <span class="underline white"></span>
+    </div>													
+  </div>
+
+  <div class="container pad-bot">
+    <div class="team-members">
+     
+      <% for team_id in data.about.team.keys %>
+      <%
+        name = data.about.team[team_id].name
+        title = data.about.team[team_id].title
+        detail = data.about.team[team_id].detail
+        image = data.about.team[team_id].image
+	twitter = data.about.team[team_id].twitter 
+	facebook = data.about.team[team_id].facebook
+	gplus = data.about.team[team_id].gplus
+      %>
+
+      <div class="col-xs-12 col-sm-4 col-lg-4 smxs-margin">
+
+	<div class="block-inner">
+	  <div class="team-img">
+	    <img src="<%= image %>" alt="team" />
+	    <div class="overlay-img text-center">
+	      <div class="contact-icons">
+		<div class="contact-icons-inner">											
+		  <a href="<%= twitter %>"><i class="icon-twitter"></i></a>
+		  <a href="<%= facebook %>"><i class="icon-facebook"></i></a>
+		  <a href="<%= gplus %>"><i class="icon-google-plus"></i></a>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="names text-center">								
+	  <span class="uppercase name"><%= title %></span>
+	  <h5 class="text-center colored-text uppercase"><%= name %></h5>
+	  <span><%= detail %></span>
+	</div>							
+
+      </div>
+
+      <% end %>
+
+    </div>
+  </div>					
+  
+  <div class="team_bottom top_angle_right"></div>
+
+</div>	

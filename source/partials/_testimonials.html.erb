@@ -1,0 +1,40 @@
+
+<div class="testimonials">
+
+  <div class="about_bottom bot_angle_left"></div>
+
+  <div class="container page-title  pad-bot"> 
+
+    <div class="animated-fade colored-text col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+
+      <div class="caroufred-text">
+
+	<ul class="testimonials">
+	  
+	  <% for testimonial_id in data.about.testimonials.keys %>
+	  <%
+            name = data.about.testimonials[testimonial_id].name
+            detail = data.about.testimonials[testimonial_id].detail
+            image = data.about.testimonials[testimonial_id].image
+          %>
+	  <li>	
+	    <p class="testimonials-img"><img src="<%= image %>" alt="img" /></p>                  
+	    <p class="testimonials-quote text-center italic-text"><span><%= detail %></span>
+	      <cite>&#8212; <%= name %></cite>
+	    </p>											
+	  </li>
+	  <% end %>
+
+	</ul>
+	
+	<div id="caroufred_testimonials_pager" class="carousel_pagination left"></div>
+
+      </div>	
+
+    </div>											
+  
+  </div>
+
+  <div class="team_top top_angle_left"></div>
+
+</div>	

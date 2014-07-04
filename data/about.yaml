@@ -1,31 +1,61 @@
 
-head: ". . .<br/><br/>About Our Cafe"
+about_us: "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
 
-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eu orci auctor hendrerit. Integer a risus vitae nibh malesuada accumsan. Integer vitae erat posuere arcu suscipit dapibus. Vestibulum varius nunc vehicula magna posuere, et mattis diam scelerisque. Nullam scelerisque id nulla eget porta. Aenean aliquet elit dui, ac dignissim magna iaculis nec. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ut dignissim lectus."
-
-gallery:
-  1:
-    image: images/about/01.png
-    thumb: images/about/thumbs/01.png
-    alt: "Hearts Espresso"
-  2:
-    image: images/about/02.png
-    thumb: images/about/thumbs/02.png
-    alt: "Cake & Tea"
-  3:
-    image: images/about/03.png
-    thumb: images/about/thumbs/03.png
-    alt: "Frutty Shake"
-  4:
-    image: images/about/04.png
-    thumb: images/about/thumbs/04.png
-    alt: "Cute Muffin"
-  5:
-    image: images/about/05.png
-    thumb: images/about/thumbs/05.png
-    alt: "Fresh Cookies"
-
-events:
-  text: "We are organizing all kinds of events, from private parties to birthdays or anniversaries."
-  link_text: "Contact us for more details and reservations!"
   
+highlights:
+  1:
+    part_1: INNOVATIVE
+    part_2: DESIGN         	
+  2:
+    part_1: UNIQUE
+    part_2: STYLE
+  3:
+    part_1: PERSONAL
+    part_2: ATTENTION       	
+  4:
+    part_1: EXCEPTIONAL
+    part_2: SERVICE
+
+
+testimonials:
+  1:
+    name: "Jennifer Robinson, CEO, Sonic"
+    detail: "I think it's great and will be recommending it! I use a lot of themes, usually sticking with the same company to stay familiar with their setups, I thought I'd try this for a new project and it's great!"
+    image: images/testimonials1.jpg
+  2:
+    name: "Jennifer Robinson, CEO, Sonic"
+    detail: "I think it's great and will be recommending it! I use a lot of themes, usually sticking with the same company to stay familiar with their setups, I thought I'd try this for a new project and it's great!"
+    image: images/testimonials1.jpg
+  3:
+    name: "Jennifer Robinson, CEO, Sonic"
+    detail: "I think it's great and will be recommending it! I use a lot of themes, usually sticking with the same company to stay familiar with their setups, I thought I'd try this for a new project and it's great!"
+    image: images/testimonials1.jpg
+
+
+team:
+  1:
+    name: "Nicole Smith"
+    title: "Project Manager"
+    detail: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    image: images/team1.jpg
+    twitter: "http://www.twitter.com"
+    facebook: "http://www.facebook.com"
+    gplus: "http://www.google.com"
+  2:
+    name: "Nicole Smith"
+    title: "Project Manager"
+    detail: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    image: images/team1.jpg
+    twitter: "http://www.twitter.com"
+    facebook: "http://www.facebook.com"
+    gplus: "http://www.google.com"
+  3:
+    name: "Nicole Smith"
+    title: "Project Manager"
+    detail: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    image: images/team1.jpg
+    twitter: "http://www.twitter.com"
+    facebook: "http://www.facebook.com"
+    gplus: "http://www.google.com"
+
+    

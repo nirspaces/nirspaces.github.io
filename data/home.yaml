@@ -1,0 +1,17 @@
+
+main_gallery:
+  1:
+    name: Kitchen & Bath
+    image: images/kitchen_bath1.jpg  
+  2:
+    name: Living Rooms
+    image: images/livingroom2.jpg
+  3:
+    name: Bedrooms
+    image: images/bedroom2.jpg  
+  4:
+    name: Outdoors
+    image: images/outdoors1.jpg
+  5:
+    name: Offices
+    image: images/offices1.jpg

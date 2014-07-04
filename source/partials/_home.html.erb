@@ -1,0 +1,40 @@
+
+<div id="home">
+  
+  <!-- HOME SLIDER -->
+  <div class="home-slider main-section gray-bg">
+
+    <div class="text-center">
+      <a class="navbar-brand smooth" href="#home">
+	<img src="<%= data.site.logo %>" alt="logo"/> 
+      </a>
+    </div>
+
+    <div class="caroufred green">
+      <ul class="gallery uppercase">
+	<% for gallery_id in data.home.main_gallery.keys %>
+	<%
+	   image_title = data.home.main_gallery[gallery_id].name 
+           image_src = data.home.main_gallery[gallery_id].image
+	%>
+	<li>	
+	  <img src="<%= image_src %>" alt="img"/> 
+	  <div class="home-overlay colored-text text-center">
+	    <h4><span><%= image_title %></span></h4>
+	  </div>
+	</li>
+	<% end %>
+      </ul>
+      <div class="carousel_pagination-outer">
+	<div id="caroufred_home_slide_pager" class="carousel_pagination left"></div>
+      </div>
+    </div>
+
+  </div>
+	
+  <div id="navigate" class="my-sticky-element col-xs-12 col-sm-12 col-md-12 col-lg-12">		
+    <%= partial "partials/nav" %>
+    <div class="menu_bottom bot_angle_right"></div>
+  </div> 
+
+</div>
