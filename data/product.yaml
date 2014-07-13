@@ -1,0 +1,50 @@
+
+products:
+  1:
+    type: "kitchen"
+    type_name: "Kitchen & Bath"
+    image: "http://placehold.it/1900x1080/FF0000&text=Placeholder"
+    title: "title"
+    text: "some description"
+  2:
+    type: "kitchen"
+    type_name: "Kitchen & Bath"
+    image: "http://placehold.it/1900x1080&text=Placeholder"	
+    title: "title"
+    text: "some description"
+  3:
+    type: "kitchen"
+    type_name: "Kitchen & Bath"
+    image: "http://placehold.it/1900x1080/FF0000&text=Placeholder"
+    title: "title"
+    text: "some description"
+  4:
+    type: "kitchen"
+    type_name: "Kitchen & Bath"
+    image: "http://placehold.it/1900x1080&text=Placeholder"	
+    title: "title"
+    text: "some description"
+  5:
+    type: "kitchen"
+    type_name: "Kitchen & Bath"
+    image: "http://placehold.it/1900x1080&text=Placeholder"	
+    title: "title"
+    text: "some description"
+  6:
+    type: "kitchen"
+    type_name: "Kitchen & Bath"
+    image: "http://placehold.it/1900x1080/FF0000&text=Placeholder"
+    title: "title"
+    text: "some description"
+  7:
+    type: "kitchen"
+    type_name: "Kitchen & Bath"
+    image: "http://placehold.it/1900x1080&text=Placeholder"	
+    title: "title"
+    text: "some description"
+  8:
+    type: "kitchen"
+    type_name: "Kitchen & Bath"
+    image: "http://placehold.it/1900x1080/FF0000&text=Placeholder"	
+    title: "title"
+    text: "some description"

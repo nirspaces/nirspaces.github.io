@@ -1,49 +1,59 @@
-      <div id="contact" class="main-section not-home green">	
-	<div class="contact pad-bot blue-bg">
-	  <div class="container">
-	    <div class="title page-title text-center">
-	      <h1 class="light-text">Contact</h1>
-	      <span class="underline white"></span>
-	    </div>	
-	  </div>																
-	  <div class="container">
-	    <!-- ADDRESSES AND SOCIALS -->
-	    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 smxs-margin animated-slide-top">																				
-	      <h6 class="uppercase colored-text">Address</h6>
-	      <p class="address">
-		Harbor Blvd
-		<br>
-		Costa Mesa, CA 92627
-		<br>
-		United States
-		<br>
-		<abbr title="Phone">P:</abbr>
-		<span>(123)456&#8209;7890</span>
-		<br>
-		<abbr title="Fax">F:</abbr>
-		<span>(123)456&#8209;7890</span>
-		<br>
-		e-mail: <a href="mailto:office@example.com">office@example.com</a>
-	      </p>
-	      <h6 class="uppercase colored-text">Socials</h6>
-	      <div class="footer-icons">							
-		<a href="http://www.twitter.com"><i class="icon-twitter"></i></a>
-		<a href="http://www.facebook.com"><i class="icon-facebook"></i></a>
-		<a href="http://www.linkedin.com"><i class="icon-linkedin"></i></a>
-		<a href="http://www.google.com"><i class="icon-google-plus"></i></a>																							
-	      </div>
-	    </div>
-	    <!-- CONTACT FORM -->
-	    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 animated-fade">
-	      <form method="post" class="contact-form">
-		<fieldset>
-		  <input type="text" name="name" placeholder="Name" class="col-xs-12 col-sm-12 col-lg-12 input-text" id="namecon">
-		  <input type="text" name="email" placeholder="E-mail" class="col-xs-12 col-sm-12 col-lg-12 input-text" id="emailcon">
-		  <textarea rows="6" name="comments" placeholder="Message" class="col-xs-12 col-sm-12 col-lg-12 input-text" id="commentcon"></textarea>
-		  <div class="btn-wrapper"><input type="button" value="Submit" onClick="ajax.send()" class="uppercase btn btn-primary btn-large btn-input"  id="sendcon"></div>
-		</fieldset>	
-	      </form>		
-	    </div>
-	  </div>																																					
+
+<div id="contact" class="main-section not-home green">	
+  
+  <div class="contact pad-bot blue-bg">
+
+    <div class="container">
+      <div class="title page-title text-center">
+	<h1 class="light-text">Contact</h1>
+	<span class="underline white"></span>
+      </div>	
+    </div>																
+
+    <div class="container">
+      <!-- ADDRESSES AND SOCIALS -->
+
+      <div class="col-xs-12 col-sm-4 col-md-5 col-lg-5 smxs-margin">
+
+	<% if(data.site.address != "nil") %>
+	<h6 class="uppercase colored-text">Address</h6>
+	<p class="address"><%= data.site.address %></p>
+	<% end %>
+
+	<% if(data.site.email != "nil") %>
+	<p>e-mail: <a href="mailto:<%= data.site.email %>"><%= data.site.email %></a></p>
+	<% end %>
+
+	<% if(data.site.phone != "nil") %>
+	<p>Phone: <%= data.site.phone %></p>
+	<% end %>
+	
+	<div class="footer-icons">
+
+	  <% if(data.site.twitter != "nil") %>
+	  <a href="http://www.twitter.com"><i class="icon-twitter"></i></a>
+	  <% end %>
+
+	  <% if(data.site.facebook != "nil") %>
+	  <a href="http://www.facebook.com"><i class="icon-facebook"></i></a>
+	  <% end %>
+
+	  <% if(data.site.linkedin != "nil") %>
+	  <a href="http://www.linkedin.com"><i class="icon-linkedin"></i></a>
+	  <% end %>
+	  
 	</div>
+	
       </div>
+      
+      <div class="col-xs-12 col-sm-8 col-md-7 col-lg-7">
+	<% if(data.site.gmap != "nil") %>
+	<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<%= data.site.gmap %>"></iframe>
+	<% end %>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

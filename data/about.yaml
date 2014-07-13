@@ -19,41 +19,41 @@ highlights:
 
 testimonials:
   1:
-    name: "Jennifer Robinson, CEO, Sonic"
-    detail: "I think it's great and will be recommending it! I use a lot of themes, usually sticking with the same company to stay familiar with their setups, I thought I'd try this for a new project and it's great!"
+    name: "xyz pqr"
+    detail: "blah! blah! blah blah!!!"
     image: nil
   2:
-    name: "Jennifer Robinson, CEO, Sonic"
-    detail: "I think it's great and will be recommending it! I use a lot of themes, usually sticking with the same company to stay familiar with their setups, I thought I'd try this for a new project and it's great!"
+    name: "xyz pqr"
+    detail: "blah! blah! blah blah!!!"
     image: nil
   3:
-    name: "Jennifer Robinson, CEO, Sonic"
-    detail: "I think it's great and will be recommending it! I use a lot of themes, usually sticking with the same company to stay familiar with their setups, I thought I'd try this for a new project and it's great!"
+    name: "xyz pqr"
+    detail: "blah! blah! blah blah!!!"
     image: nil
 
 
 team:
   1:
-    name: "Nicole Smith"
-    title: "Project Manager"
-    detail: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    image: images/team1.jpg
+    name: "xyz pqr"
+    title: "CEO"
+    detail: "studied here and there. worked somewhere"
+    image: "http://placehold.it/1900x1080/FF0000&text=Placeholder"
     twitter: "http://www.twitter.com"
     facebook: "http://www.facebook.com"
     gplus: "http://www.google.com"
   2:
-    name: "Nicole Smith"
-    title: "Project Manager"
-    detail: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    image: images/team1.jpg
+    name: "xyz pqr"
+    title: "COO"
+    detail: "studied here and there. worked somewhere"
+    image: "http://placehold.it/1900x1080/FF0000&text=Placeholder"
     twitter: "http://www.twitter.com"
     facebook: "http://www.facebook.com"
     gplus: "http://www.google.com"
   3:
-    name: "Nicole Smith"
+    name: "xyz pqr"
     title: "Project Manager"
-    detail: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    image: images/team1.jpg
+    detail: "studied here and there. worked somewhere"
+    image: "http://placehold.it/1900x1080/FF0000&text=Placeholder"
     twitter: "http://www.twitter.com"
     facebook: "http://www.facebook.com"
     gplus: "http://www.google.com"
