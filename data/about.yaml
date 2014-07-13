@@ -21,15 +21,15 @@ testimonials:
   1:
     name: "Jennifer Robinson, CEO, Sonic"
     detail: "I think it's great and will be recommending it! I use a lot of themes, usually sticking with the same company to stay familiar with their setups, I thought I'd try this for a new project and it's great!"
-    image: images/testimonials1.jpg
+    image: nil
   2:
     name: "Jennifer Robinson, CEO, Sonic"
     detail: "I think it's great and will be recommending it! I use a lot of themes, usually sticking with the same company to stay familiar with their setups, I thought I'd try this for a new project and it's great!"
-    image: images/testimonials1.jpg
+    image: nil
   3:
     name: "Jennifer Robinson, CEO, Sonic"
     detail: "I think it's great and will be recommending it! I use a lot of themes, usually sticking with the same company to stay familiar with their setups, I thought I'd try this for a new project and it's great!"
-    image: images/testimonials1.jpg
+    image: nil
 
 
 team:

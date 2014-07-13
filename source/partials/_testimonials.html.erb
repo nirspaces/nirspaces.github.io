@@ -1,7 +1,17 @@
 
-<div class="testimonials">
-
   <div class="about_bottom bot_angle_left"></div>
+  
+
+
+<div id="testimonials" class="testimonials main-section not-home">
+  
+  <div class="container">					
+    <div class="title page-title text-center">
+      <h1 class="dark-text">Testimonials</h1>
+      <span class="underline green"></span>
+    </div>													
+  </div>
+  
 
   <div class="container page-title  pad-bot"> 
 
@@ -18,7 +28,9 @@
             image = data.about.testimonials[testimonial_id].image
           %>
 	  <li>	
+	    <% if(image != "nil") %>
 	    <p class="testimonials-img"><img src="<%= image %>" alt="img" /></p>                  
+	    <% end %>
 	    <p class="testimonials-quote text-center italic-text"><span><%= detail %></span>
 	      <cite>&#8212; <%= name %></cite>
 	    </p>											
