@@ -4,14 +4,14 @@ main_gallery:
     name: ""
     image: "http://placehold.it/1900x1080/000080&text=Placeholder"
   2:
-    name: Living Rooms
-    image: "http://placehold.it/1900x1080/FFFF00&text=Placeholder"	
+    name: ""
+    image: "http://placehold.it/1900x1080/FFFF00&text=Placeholder"
   3:
-    name: Bedrooms
-    image: "http://placehold.it/1900x1080/00FF00&text=Placeholder"	
+    name: ""
+    image: "http://placehold.it/1900x1080/00FF00&text=Placeholder"
   4:
-    name: Outdoors
-    image: "http://placehold.it/1900x1080/FF0000&text=Placeholder"	
+    name: ""
+    image: "http://placehold.it/1900x1080/FF0000&text=Placeholder"
   5:
-    name: Offices
-    image: "http://placehold.it/1900x1080&text=Placeholder"	
+    name: ""
+    image: "http://placehold.it/1900x1080&text=Placeholder"
