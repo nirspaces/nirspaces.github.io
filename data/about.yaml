@@ -1,19 +1,19 @@
 
 title: "Who we are"
 
-about_us: "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+about_us: "<p>We are a bunch of proffesionals, architechts, interiror designers, project managers with overall experience of close to a decade with a rich body of work.</p>"
 
-  
+
 highlights:
   1:
     part_1: INNOVATIVE
-    part_2: DESIGN         	
+    part_2: DESIGN
   2:
     part_1: UNIQUE
     part_2: STYLE
   3:
     part_1: PERSONAL
-    part_2: ATTENTION       	
+    part_2: ATTENTION
   4:
     part_1: EXCEPTIONAL
     part_2: SERVICE
@@ -21,16 +21,16 @@ highlights:
 
 testimonials:
   1:
-    name: "xyz pqr"
-    detail: "blah! blah! blah blah!!!"
+    name: "nil"
+    detail: "nil"
     image: nil
   2:
-    name: "xyz pqr"
+    name: "nil"
     detail: "blah! blah! blah blah!!!"
     image: nil
   3:
-    name: "xyz pqr"
-    detail: "blah! blah! blah blah!!!"
+    name: "nil"
+    detail: "nil"
     image: nil
 
 
@@ -59,5 +59,3 @@ team:
     twitter: "http://www.twitter.com"
     facebook: "http://www.facebook.com"
     gplus: "http://www.google.com"
-
-    

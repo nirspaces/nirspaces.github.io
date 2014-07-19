@@ -2,16 +2,16 @@
 main_gallery:
   1:
     name: ""
-    image: "images/1.jpg"
+    image: "images/main1.jpg"
   2:
     name: ""
-    image: "http://placehold.it/1900x1080/FFFF00&text=Placeholder"
+    image: "images/main2.jpg"
   3:
     name: ""
-    image: "http://placehold.it/1900x1080/00FF00&text=Placeholder"
+    image: "images/main3.jpg"
   4:
     name: ""
-    image: "http://placehold.it/1900x1080/FF0000&text=Placeholder"
+    image: "images/main4.jpg"
   5:
     name: ""
-    image: "http://placehold.it/1900x1080&text=Placeholder"
+    image: "images/main5.jpg"
