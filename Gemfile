@@ -19,4 +19,7 @@ gem "middleman-deploy"
 
 gem "middleman-blog"
 
+gem 'middleman-inliner'
 gem 'middleman-minify-html'
+gem 'middleman-imageoptim'
+
