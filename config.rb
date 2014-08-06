@@ -61,7 +61,9 @@ configure :build do
   activate :minify_javascript
   activate :gzip
   activate :minify_html
-  activate :imageoptim
+  activate :imageoptim do |image_optim|
+    image_optim.pngout_options = false 
+  end
 end
 
 activate :deploy do |deploy|
